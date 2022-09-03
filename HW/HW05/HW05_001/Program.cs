@@ -2,7 +2,8 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-Console.WriteLine("Введите размер массива ");
+void YYY()
+{ Console.WriteLine("Введите размер массива ");
 int x = Convert.ToInt32(Console.ReadLine());
 int [] mass = new int[x];
 Random r = new Random();
@@ -17,10 +18,10 @@ QQQ(mass);
                     Console.WriteLine("=======================================");
 
 void QQQ (int[] mass)
-{
-        for(int i = 0; i < x; i++)
-        {
-        mass[i] = r.Next(100,1000);
+{         for(int i = 0; i < x; i++)
+        {         mass[i] = r.Next(100,1000);
         Console.Write($"{mass[i]},");
         }
 }
+}
+YYY();
